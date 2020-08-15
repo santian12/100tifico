@@ -1,7 +1,7 @@
-import Header from '../templates/Header.js';
+import Header from '../Templates/header.js';
 import Home from '../pages/Home';
 import Character from '../pages/Character';
-import Error404 from '../pages/Error404';
+import Error404 from '../pages/error404';
 import getHash from '../utils/getHash';
 import resolveRoutes from '../utils/resolveRoutes';
 
