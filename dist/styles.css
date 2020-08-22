@@ -3,20 +3,34 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color:white;
   color: #3c484e;
   font-family: 'Open Sans', sans-serif;
 }
-
+.Error404{
+  background-color: #e7e8ebb0;
+}
+.Error404 img{
+  display:block;
+  margin:auto;
+}
 .Header-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color:#1494a4;
+  color :#ffffff;
+  
+
+}
+.Header-logo img{
+  width: px;
+   height: 50px;
 }
 
 .Header a {
   text-decoration: none;
-  color: #15302C;
+  color:#ffffff;
 }
 
 .Main {
@@ -31,6 +45,18 @@ body {
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
   display: grid;
+  padding-top: 10px;
+}
+.Characters h2{
+  color:#0e4446;
+ 
+
+}
+.Characters a{
+  text-decoration: none;
+}
+.Characters article:hover{
+  box-shadow:0px 2px 6px 6px #97cc54;
 }
 
 .Characters-inner {
@@ -42,7 +68,7 @@ body {
 
 .Characters-card {
   text-decoration: none;
-  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px #97cc54;
   border-radius: 5px;
   margin: 0 0 20px 0;
   display: block;
@@ -60,13 +86,16 @@ body {
   font-size: 18px;
   font-weight: 400;
   text-align: center;
+  
 }
+
 
 .Characters-card h3 {
   font-size: 18px;
   font-weight: 400;
   text-align: left;
   margin: 20px;
+  color : black;
 }
 
 .Characters-item {
@@ -78,7 +107,7 @@ body {
   animation-duration: 2s;
   animation-name: fade;
 }
-
+ 
 .Characters-item img {
   width: 100%;
   height: auto;
@@ -91,13 +120,15 @@ body {
   padding: 5px 10px;
   display: flex;
   justify-content: space-between;
+  color : #0e4446;
+  text-decoration: none;
 }
-
 
 .Characters-item a {
   text-decoration: none;
-  color: #15302C ;
+ 
 }
+
 
 @keyframes fade {
   from {
